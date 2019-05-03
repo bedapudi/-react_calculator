@@ -1,0 +1,91 @@
+html,
+body {
+	height: 100%;
+}
+
+#root {
+	height: 100%;
+  min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.dark-theme{
+  background-color: #000;
+  height: 100%;
+}
+.dark-theme .message{
+  color: #fff;
+} 
+
+.light-theme{
+  background-color: #fff;
+  height: 100%;
+}
+
+.light-theme .message{
+  color: #000;
+}
+
+.type-selection,.theme-selection{
+  margin: 20px;
+}
+.type-selection{
+  margin-top: 0px;
+}
+
+.button {
+  font-size: 25px;
+  padding: 5px;
+  background-color: lightgray;
+  cursor: pointer; 
+
+}
+
+.button-selected {
+  font-size: 25px;
+  padding: 5px;
+  color: white;
+  font-style: bold;
+  background-color: lightskyblue;
+  cursor: pointer; 
+}
+.calculator-grid{
+  margin: 0px auto;
+}
+
+.light-theme .calculator-grid td{
+  padding: 25px;
+  background-color: #f0f0f0;
+  color: #000;
+  cursor: pointer; 
+}
+
+.dark-theme .calculator-grid td{
+  padding: 25px;
+  background-color: #666;
+  color:#fff;
+  cursor: pointer; 
+}
+.calculator-display{
+  height: 50px;
+  width: 325px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.light-theme .calculator-display{
+  background-color: #fff;
+  color: #000;
+}
+.dark-theme .calculator-display{
+  background-color: #000;
+  color: #fff;
+}
+
